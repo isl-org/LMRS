@@ -25,11 +25,11 @@ If you want to run the AirFoil experiments, install [XFoil](https://web.mit.edu/
 If you want to run the continous optimization benchmark, install ``Pagmo`` following [esa/pagmo2](https://github.com/esa/pagmo2).
 
 # Usage
-Experiment specific parameters are provided as a json file. See the `sample.json` for an example.
+Experiment specific parameters are provided as a json file. See the `hc.json` for an example.
 
 To run an example experiment, use the command: 
 ```bash
-python mujoco_experiments.py --param_file=./sample.json
+python mujoco_experiments.py --param_file=./hc.json
 ```
 
 # Contact
