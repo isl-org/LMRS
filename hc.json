@@ -1,0 +1,21 @@
+{
+	"env_name" : "HalfCheetah-v1",
+	"seed": 4242,
+	"policy_type": "linear",
+	"dir_std": 0.03,
+	"step_size": 0.02,
+	"num_workers": 8,
+	"rollout_length": 1000,
+	"num_rollouts": 8,
+	"sampler": "unit_normal",
+	"n_iter": 2500,
+	"every_val": 10,
+	"shift": 0,
+	"optimizer": "sgd",
+        "learning_rate": 0.01,
+        "num_hidden_dim": 8,
+        "num_learning_iterations": 10,
+        "gram_schmidt": true,
+        "variance_reduced": false,
+	"filter_corrected": true
+}
