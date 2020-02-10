@@ -12,6 +12,8 @@ The experimentation framework is based on [Ray](https://github.com/ray-project/r
 
 The source code is released under the MIT License. See the License file for details.
 
+Please note that this is the minimal implementation of the LMRS for MuJoCo, we will update the repo with the additional code for XFoil, Pagmo, and synthetic experiments. 
+
 
 # Requirements and References
 The code uses the following Python packages and they are required: ``tensorboardX, pytorch>1.0, click, numpy, torchvision, tqdm, scipy, Pillow, ray``
