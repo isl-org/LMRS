@@ -1,6 +1,6 @@
 # LMRS: Learned Manifold Random Search
 
-This code repository includes the source code for the [Paper](https://arxiv.org/abs/XXX.XXXXX):
+This code repository includes the source code for the [Paper](https://arxiv.org/abs/2004.12214):
 
 ```
 Learning to Guide Random Search
