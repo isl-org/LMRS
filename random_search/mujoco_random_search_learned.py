@@ -353,7 +353,7 @@ class MujocoRandomSearchLearned(object):
             if self.sgd:
                 self.update_sgd(rewards, directions)
             elif self.variance_reduced:
-                self.update_variance_reduced(rewards, directions)
+                raise ValueError("Variance reduced version i not shared yet!")
             elif self.sampler_type in ['cma_es']:
                 flat_rewards = [(-1.0)*v[0] for v in (rewards).tolist()]
                 es.tell(directions_c, flat_rewards)
